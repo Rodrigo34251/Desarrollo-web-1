@@ -1,0 +1,87 @@
+.Reporte {
+    background-color: #87CEEB;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+hr {
+    border: none;
+    height: 3px;
+    width: 50%;
+    background-color: black;
+}
+
+#TP1 {
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+#TP2 {
+    margin-top: 0px;
+}
+
+#IMG1 {
+    width: 500px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+}
+
+.T1 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#TP3 {
+    margin-top: 1%;
+    margin-bottom: 15px;
+}
+
+#PA1 {
+    text-align: justify;
+    padding-right: 25%;
+    padding-left: 25%;
+    margin-top: 0px;
+    margin-bottom: 45px;
+}
+
+.Tabla1 th {
+    text-align: center;
+    border: 2px solid black;
+}
+
+.ImagenesPersonajes img { 
+    width: 200px;
+    height: 270px;
+    object-fit: cover;
+    border: 2px black solid;
+}
+
+.Tabla2 {
+    text-align: center;
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+.Tabla2 th {
+    border: 2px solid black;
+}
+
+#TF1 {
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+footer {
+    text-align: center;
+    width: 100%;
+    height: 10vh;
+    padding-top: 2%;
+    color: white;
+    background-color: black;
+}
+

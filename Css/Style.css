@@ -1,0 +1,103 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.main-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+}
+
+.subtitle {
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.intro {
+    padding: 2rem;
+    background: #e8f5e9;
+    text-align: center;
+}
+
+.intro-text {
+    max-width: 800px;
+    margin: auto;
+}
+
+.country-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.country-section article {
+    background: white;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.country-image {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+.country-section h3 {
+    margin-top: 0;
+    color: #4CAF50;
+}
+
+.country-section a {
+    display: inline-block;
+    margin-top: 0.5rem;
+    color: #2196F3;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.country-section a:hover {
+    text-decoration: underline;
+}
+
+.additional-info {
+    padding: 2rem;
+    background: #f1f1f1;
+}
+
+.country-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+
+.country-table th, .country-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.country-table th {
+    background: #4CAF50;
+    color: white;
+}
+
+.footer-text {
+    text-align: center;
+    padding: 1rem;
+    background: #333;
+    color: white;
+    margin-top: 2rem;
+}

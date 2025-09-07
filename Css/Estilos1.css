@@ -1,0 +1,34 @@
+.cuerpo {
+    background-color: lightblue;
+}
+
+.division_1 {
+    font-size: 20px;
+}
+
+.subtitulo {
+    text-decoration: underline; 
+    color: white;
+}
+
+.parrafo_1 {
+    color:navy; 
+    font-weight: bold;
+}
+
+.parrafo_2 {
+    text-transform: uppercase; 
+    text-align: justify;
+}
+
+.parrafo_3 {
+    font-size: 12px;
+}
+
+.span_1 {
+    font-style: italic;
+}
+
+.span_2 {
+    font-style: italic;
+}
