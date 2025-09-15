@@ -38,3 +38,14 @@ header h1 {
     font-weight: bold;
 }
 
+.Semana_2 th::before {
+    content: "• ";       
+    color: black;      
+    font-weight: bold;
+}
+
+.Semana_2 {
+    padding-top: 20px;
+    padding-left: 35px;
+}
+

@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body header {
+    margin: 0px;
+    padding: 16px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+
+.Titulo {
+    text-align: center;
+    font-weight: bold;
+}
+
+header hr{
+    width: 800px;
+    background-color: white;
+}
+
+.DatosRelevantes {
+    width: 300px;
+    float: left;
+    margin: 16px 24px 24px 24px;
+    border: 4px solid black ;
+    border-radius: 10px;
+    padding: 16px;
+    background-color: black;
+    color: white;
+}
+
+.DatosRelevantes dt {
+    font-weight: bold;
+    margin: 2px;
+}
+
+.DatosRelevantes img {
+    max-width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    border: 4px solid black;
+    border-radius: 10px;
+}
+
+.Informacion > div:nth-of-type(4) dd{
+    font-weight: bold;
+}
+
+a[href*="https"] { 
+    font-style: italic;
+}
+
+#FilaImagenes{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+}
+
+#FilaImagenes img {
+    width: 100%;
+    aspect-ratio: 4/3;
+    object-fit: contain;
+    display: block;
+}
+
+body footer {
+    clear: both;
+    margin: 0px;
+    padding: 16px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+footer p {
+    font-size: 20px;
+}
