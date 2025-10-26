@@ -1,68 +1,231 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
+
+* {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
-    padding: 0;
-    color: black;
+    font-family: Montserrat, Arial, Sans-serif;
+    color: white;
     background-color: white;
 }
 
 header {
-    position: relative;
     width: 100%;
     background-color: #001F3F;
     color: white;
     padding: 20px;
 }
 
-header .logo {
-    position: absolute;
-    top: 30px;    
-    left: 25px;  
-    width: 60px;
+.Estudiante .logo {
+    width: 5%;
+    min-width: 50px;
     height: auto;
+    margin-left: 20px;
+}
+
+header.Estudiante {
+    width: 100%;
+    margin: 0 auto;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 2%;
+    flex-wrap: nowrap;
 }
 
 header h1 {
-    margin-left: 85px;
+    margin: 0;
+    font-size: 2rem;
+    font-weight: 700;
 }
 
-.Semana_1 {
-    padding-top: 20px;
-    padding-left: 35px;
+.Biografia {
+    margin-top: 3rem;
 }
 
-.Semana_1 th::before {
-    content: "• ";       
-    color: black;      
-    font-weight: bold;
+.Biografia, .Materia {
+    width: 85%;
+    margin: 2% auto;
+    background-color: #001F3F;
+    border: 3px solid black;
+    border-radius: 1rem;
+    padding: 2%;
+    box-shadow: 5px 5px 10px 0px black;
+    margin-bottom: 2%;
 }
 
-.Semana_2 th::before {
-    content: "• ";       
-    color: black;      
-    font-weight: bold;
+.Biografia, .Materia, .Foda h2{
+    text-align: center;
 }
 
-.Semana_2 {
-    padding-top: 20px;
-    padding-left: 35px;
+.Foda {
+    width: 85%;
+    margin: 2% auto;
+    background-color: #001F3F;
+    border: 3px solid black;
+    border-radius: 1rem;
+    padding: 2%;
+    box-shadow: 5px 5px 10px 0px black;
+    margin-bottom: 2%;
 }
 
-.Semana_3 th::before {
-    content: "• "; 
-    color: black;      
-    font-weight: bold;
+.Fortalezas {
+    background-color: #D4EDDA;
 }
 
-.Semana_3 {
-    padding-top: 20px;
-    padding-left: 35px;
+.Oportunidades {
+    background-color: #D6EAF8;
 }
 
-.Semana_3 th {
-    text-align: left;
-    padding-left: 0;
-    margin-bottom: 10px;
+.Debilidades {
+    background-color: #FFF3CD;
 }
 
+.Amenazas {
+    background-color: #F8D7DA;
+}
+
+.Tabla_Foda {
+    color: black;
+    margin: 0 auto;
+}
+
+.Semanas {
+    margin: 2% auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2%;
+    justify-content: center;
+}
+
+.Semana_1, .Semana_2, .Semana_3, .Semana_4, .Semana_5, .Semana_6 {
+    background-color: #001F3F;
+    border: 3px solid black;
+    border-radius: 1rem;
+    padding: 2%;
+    margin-top: 2%;
+    width: 30%;
+    box-shadow: 5px 5px 10px 0px black;
+    text-align: center;
+}
+
+.Semanas ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.Semanas ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    background-color: goldenrod;
+    padding: 10px 20px;
+    border-radius: 12px;
+    margin: 6px 0;
+}
+
+.TitulosH2 {
+    width: 45%;
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    
+    header.Estudiante {
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: center;
+    }
+
+    header h1 {
+        font-size: 1.5em;
+    }
+
+    .Estudiante .logo {
+        width: 15%;
+        min-width: 70px;
+    }
+
+    .Biografia, .Materia, .Foda {
+        width: 90%;
+        padding: 1.5rem;
+    }
+
+    .Semanas {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+        justify-content: center;
+    }
+
+    .Semana_1, .Semana_2, .Semana_3, .Semana_4, .Semana_5, .Semana_6 {
+        width: 42%;
+        margin: 1.5rem;
+    }
+
+    .Semanas ul li a {
+        padding: 8px 16px;
+        font-size: 1rem;
+    }
+
+    .TitulosH2 {
+        width: 50%;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+
+    header.Estudiante {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 1rem;
+    }
+
+    header h1 {
+        font-size: 1.2em;
+    }
+
+    .Estudiante .logo {
+        width: 15%;
+        min-width: 60px;
+    }
+
+    .Biografia, .Materia, .Foda {
+        width: 90%;
+        padding: 1rem;
+        margin-top: 1.5rem;
+    }
+
+    .Foda {
+        padding: 2%;
+    }
+
+    .Semanas {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+        justify-content: center;
+    }
+
+    .Semana_1, .Semana_2, .Semana_3, .Semana_4, .Semana_5, .Semana_6 {
+        width: 80%;
+        margin-top: 1.5rem;
+    }
+
+    .Semanas ul li a {
+        display: block;
+        width: 100%;
+        padding: 8px 0px;
+        font-size: center;
+    }
+
+    .TitulosH2 {
+        width: 50%;
+    }
+}
